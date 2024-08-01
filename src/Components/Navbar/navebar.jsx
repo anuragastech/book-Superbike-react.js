@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../Assets/blackSuperBike.png";
-import cartIcon from "../Assets/cartIn.png"; 
+import cartIcon from "../Assets/cartblue.png"; 
 import './navbar.css';
 
 const Navbar = () => {
