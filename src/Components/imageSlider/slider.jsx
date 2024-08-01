@@ -1,6 +1,10 @@
 import React from 'react';
 import "./slider.css"
+import bike from "../Assets/orengeredBike.jpg"
 
+import hands from  "../Assets/orengeredBike.jpg"
+
+import midImage from "../Assets/orengeredBike.jpg"
 
 const Slider = () => {
     return (
@@ -10,7 +14,7 @@ const Slider = () => {
 <div>
     <div className='hand-hand-icon'>
 <p>new</p>
-<img src={} alt=''/>
+<img src={hands} alt=''/>
     </div>
     <p>collections</p>
     <p>for everyone</p>
@@ -18,12 +22,12 @@ const Slider = () => {
 
 <div className='slidrt-latest-btn'>
     <div>Latest collection</div>
-    <img src='' alt=''/>
+    <img src={midImage} alt=''/>
 
 </div>
             </div>
             <div className='slider-right'>
-            <img src='' alt=''/>
+            <img src={bike} alt=''/>
 
 
 </div>

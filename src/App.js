@@ -8,6 +8,7 @@ import shop from "./Components/pages/shop"
 import Product from './Components/pages/product';
 import Cart from './Components/pages/cart';
 import LoginSignUp from './Components/pages/LoginSignUp';
+import Slider from "./Components/imageSlider/slider"
 
 class App extends Component {
   render() {
@@ -32,6 +33,7 @@ class App extends Component {
 
    
    </BrowserRouter>
+   <Slider/>
       </div>
     );
   }
