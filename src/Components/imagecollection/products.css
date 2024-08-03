@@ -1,0 +1,6 @@
+/* parentComponent.css */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px; /* Adjust the gap between items as needed */
+}
