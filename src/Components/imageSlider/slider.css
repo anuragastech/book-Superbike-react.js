@@ -1,93 +1,66 @@
 /* slider.css */
 
 .slider {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    margin: 20px auto;
-    max-width: 1200px;
-  }
-  
-  .slider-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background: url('../Assets/orengeredBike.jpg') no-repeat center center;
+  background-size: cover; /* Keeps the image covered, might crop */
+  background-position: center; /* Ensures image is centered */
+  border: 30px solid #ffffff; /* Border around the slider */
+  height: 70vh; /* Adjusted height */
+  position: relative;
+  color: #fff;
+  border-radius: 50px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds shadow */
+}
+
+
+.slider-left {
     flex: 1;
-    padding: 20px 40px;
-  }
-  
-  .slider-left h2 {
-    font-size: 2.5em;
+    max-width: 480px;
+    padding: 20px;
+    position: relative;
+}
+
+.hand-hand-icon {
     margin-bottom: 20px;
-    color: #333333;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  
-  .slider-left .hand-hand-icon {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-  }
-  
-  .slider-left .hand-hand-icon p {
-    margin: 0;
-    font-size: 1.5em;
+}
+
+.hand-hand-icon video {
+    width: 39%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgb(13, 13, 13);
+}
+
+.slider-left p {
+    font-size: 2rem;
     font-weight: bold;
-    color: #ff6347;
-  }
-  
-  .slider-left .hand-hand-icon img {
-    margin-left: 15px;
-    width: 25px;
-    height: 25px;
-  }
-  
-  .slider-left p {
-    font-size: 1.2em;
-    color: #666666;
     margin: 10px 0;
-  }
-  
-  .slidrt-latest-btn {
-    display: inline-flex;
-    align-items: center;
-    background-color: #ff6347;
-    color: #ffffff;
-    padding: 12px 25px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .slidrt-latest-btn:hover {
-    background-color: #ff4500;
-    transform: translateY(-2px);
-  }
-  
-  .slidrt-latest-btn img {
-    margin-left: 10px;
-    width: 20px;
-    height: 20px;
-  }
-  
-  .slider-right {
+    color: #fff; /* Text color to stand out on the background */
+}
+
+.slider-left p:first-of-type {
+    font-size: 2.5rem;
+    color: #ff5722; /* Accent color for emphasis */
+}
+
+.slider-left p:last-of-type {
+    font-size: 2rem;
+}
+
+.slider-right {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-  }
-  
-  .slider-right img {
-    width: 90%;
+}
+
+.slider-right img {
+    max-width: 100%;
     height: auto;
     border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  }
-  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

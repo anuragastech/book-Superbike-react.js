@@ -1,8 +1,9 @@
 import React from "react";
 import "./contact.css";
-import bike1 from "../Assets/blackSuperBike.png";
+import bike1 from "../Assets/FutureBike.jpg";
 import bike2 from "../Assets/bulletHalf.jpg";
 import office from "../Assets/redBike.jpg";
+import bike3  from "../Assets/orengeredBike.jpg";
 
 const Contact = () => {
   return (
@@ -10,7 +11,7 @@ const Contact = () => {
       <div className="contact-header">
         <h1>Contact Us</h1>
         <div className="header-images">
-          <img src={bike1} alt="Bike 1" />
+          <img src={bike3} alt="Bike 1" />
           <img src={bike2} alt="Bike 2" />
         </div>
         <p>

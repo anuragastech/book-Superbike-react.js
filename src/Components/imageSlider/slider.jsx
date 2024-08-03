@@ -1,36 +1,20 @@
 import React from 'react';
-import "./slider.css"
-import bike from "../Assets/orengeredBike.jpg"
-
-import hands from  "../Assets/orengeredBike.jpg"
-
-import midImage from "../Assets/orengeredBike.jpg"
+import './slider.css';
+import hands from '../Assets/vedioBike.mp4'; // Import the video file
 
 const Slider = () => {
     return (
         <div className='slider'>
             <div className='slider-left'>
-<h2>NEW ARRIVALS ONLY</h2>
-<div>
-    <div className='hand-hand-icon'>
-<p>new</p>
-<img src={hands} alt=''/>
-    </div>
-    <p>collections</p>
-    <p>for everyone</p>
-</div>
-
-<div className='slidrt-latest-btn'>
-    <div>Latest collection</div>
-    <img src={midImage} alt=''/>
-
-</div>
+                <div className='hand-hand-icon'>
+                    <video src={hands} alt='New Arrival Video' autoPlay muted loop />
+                </div>
+                <p>BuY</p>
+                <p>Your DreaM Bik</p>
             </div>
             <div className='slider-right'>
-            <img src={bike} alt=''/>
-
-
-</div>
+                {/* The right section can remain empty or include an image if needed */}
+            </div>
         </div>
     );
 }
