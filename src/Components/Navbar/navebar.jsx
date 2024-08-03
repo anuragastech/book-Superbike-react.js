@@ -15,18 +15,18 @@ const Navbar = () => {
             </div>
             <ul className="nav-menu">
                 <li onClick={() => setMenu("Home")}>
-                    <Link style={{textDecoration:"none"}} to="/">Home{menu === "Home" && <hr />}</Link>
+                    <Link style={{ textDecoration: "none" }} to="/">Home{menu === "Home" && <hr />}</Link>
                 </li>
                 <li onClick={() => setMenu("shop")}>
-                    <Link style={{textDecoration:"none"}} to="/shop">Shop{menu === "shop" && <hr />}</Link>
+                    <Link style={{ textDecoration: "none" }} to="/shop">Shop{menu === "shop" && <hr />}</Link>
                 </li>
                 <li onClick={() => setMenu("contact")}>
-                    <Link style={{textDecoration:"none"}} to="/contact">Contact {menu === "contact" && <hr />}</Link>
+                    <Link style={{ textDecoration: "none" }} to="/contact">Contact{menu === "contact" && <hr />}</Link>
                 </li>
             </ul>
             <div className="nav-login-cart">
-                <button>Login</button>
-                <img src={cartIcon} alt='Cart' />
+               <Link to="/login"><button>Login</button></Link> {/* Corrected path */}
+               <Link to="/cart"><img src={cartIcon} alt='Cart' /></Link>
             </div>
         </div>
     );
