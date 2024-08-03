@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
+import Navbar from "../Navbar/navebar";
+
+import Shops from "../imagecollection/collection";
 
 const Shop = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-}
+  return (
+    <div>
+      <Navbar />
+
+      <Shops />
+    </div>
+  );
+};
 
 export default Shop;
