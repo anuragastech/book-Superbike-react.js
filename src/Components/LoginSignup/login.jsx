@@ -1,5 +1,6 @@
 import React from 'react';
 import './login.css'; // Import the CSS file for styling
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -17,6 +18,10 @@ const Login = () => {
                         <input type='password' id='password' name='password' required />
                     </div>
                     <button type='submit'>Login</button>
+
+                    <br/>
+                    <br/>
+                    if you are not a user !<Link style={{ textDecoration: "none" }} to="/signup"> signUp</Link>
                 </form>
             </div>
         </div>
