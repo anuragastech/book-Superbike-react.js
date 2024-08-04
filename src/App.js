@@ -13,6 +13,7 @@ import Contact from './Components/pages/contact';
 import Homes from "./Components/pages/Home"
 import Footer from './Components/Footer/footer';
 import SignUp from './Components/LoginSignup/signup';
+import './tailwind.css';
 
 
 

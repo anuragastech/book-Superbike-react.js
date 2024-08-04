@@ -1,6 +1,5 @@
 import React from 'react';
 import Item from '../item/item';
-import "./products.css"
 
 const Products = () => {
     const itemData = [
@@ -34,6 +33,7 @@ const Products = () => {
             new_price: '$30.00',
             old_price: '$60.00'
         },
+        // Duplicate items for demonstration purposes
         {
             image: 'https://images.pexels.com/photos/2607554/pexels-photo-2607554.jpeg?auto=compress&cs=tinysrgb&w=600',
             name: 'Sample Item 1',
@@ -64,11 +64,10 @@ const Products = () => {
             new_price: '$30.00',
             old_price: '$60.00'
         },
-     
     ];
 
     return (
-        <div className='parent'>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4">
             {itemData.map((item, index) => (
                 <Item 
                     key={index}
