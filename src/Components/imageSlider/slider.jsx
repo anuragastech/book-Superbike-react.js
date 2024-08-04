@@ -9,7 +9,7 @@ const Slider = () => {
             style={{ backgroundImage: `url(${bikeImage})` }}
         >
             <div className="flex-1 max-w-md p-5 relative">
-                <div className="mb-5">
+                <div className="mb-5 hidden md:block">
                     <video className="w-[39%] rounded-lg shadow-lg" src={hands} autoPlay muted loop></video>
                 </div>
                 <p className="text-2xl font-bold my-2 text-white">BuY</p>
